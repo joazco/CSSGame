@@ -56,6 +56,42 @@ const levels = [
     value: "350px",
     link: "https://developer.mozilla.org/en-US/docs/Web/CSS/height",
   },
+  {
+    text: "Mettre la taille du texte à {{value}}",
+    property: "fontSize",
+    value: "50px",
+    link: "https://developer.mozilla.org/en-US/docs/Web/CSS/font-size",
+  },
+  {
+    text: "Mettre le texte en gras",
+    property: "fontWeight",
+    value: "bold",
+    link: "https://developer.mozilla.org/en-US/docs/Web/CSS/font-weight",
+  },
+  {
+    text: "Définit la hauteur de la boîte d'une ligne à {{value}}",
+    property: "lineHeight",
+    value: "110px",
+    link: "https://developer.mozilla.org/fr/docs/Web/CSS/line-height",
+  },
+  {
+    text: "Définir le dépassement en y en {{value}}",
+    property: "overflowY",
+    value: "auto",
+    link: "https://developer.mozilla.org/fr/docs/Web/CSS/overflow",
+  },
+  {
+    text: "Fixer le bloque",
+    property: "position",
+    value: "fixed",
+    link: "https://developer.mozilla.org/fr/docs/Web/CSS/position",
+  },
+  {
+    text: "Mettre le bloque en bottom {{value}}",
+    property: "bottom",
+    value: "0",
+    link: "https://developer.mozilla.org/fr/docs/Web/CSS/position",
+  },
 ];
 
 const levelsLength = levels.length;

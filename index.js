@@ -35,7 +35,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
   const end = () => {
     labelLevel.textContent = `Niveau ${levelsLength}`;
-    document.body.appendChild(ModalEnd());
+    if (configuration.showModalEnd) {
+      document.body.appendChild(ModalEnd());
+    }
   };
 
   const update = () => {

@@ -27,5 +27,5 @@ const startSolution = () => {
 if (!configuration.disableSolution && configuration.autoStartSolution) {
   startSolution();
 } else if (!configuration.disableSolution && configuration.autoSolutionTo) {
-  solutionTo(autoSolutionTo);
+  solutionTo(configuration.autoSolutionTo);
 }

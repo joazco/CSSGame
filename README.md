@@ -2,6 +2,8 @@
 
 [![Deploy to Firebase Hosting on merge](https://github.com/joazco/CSSGame/actions/workflows/firebase-hosting-merge.yml/badge.svg)](https://github.com/joazco/CSSGame/actions/workflows/firebase-hosting-merge.yml)
 
+[https://cssgame-54745.firebaseapp.com/](https://cssgame-54745.firebaseapp.com/)
+
 CSSGame est un mini-jeux customisable afin d'initier les utilisateurs aux propriétées
 css et à l'inspecteur d'éléments des navigateur.
 

@@ -1,17 +1,44 @@
+* {
+  --primary-color: #fbfbfb;
+  --secondary-color: rgb(0, 153, 248);
+  --primary-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
 body {
   height: 100vh;
   display: flex;
   flex-direction: column;
   margin: 0;
   padding: 0 8px;
+  background: var(--primary-color);
+  padding-bottom: 10px;
+}
+
+#exercice-github {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 120px;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  box-shadow: var(--primary-box-shadow);
+}
+
+#exercice-github img {
+  width: 32px;
 }
 
 #exercice-title {
   align-self: center;
+  margin-bottom: 10px;
 }
 
 #exercice-todo {
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  box-shadow: var(--primary-box-shadow);
   padding: 20px;
   border-radius: 10px;
   font-size: 1.4rem;
@@ -35,7 +62,7 @@ body {
   position: absolute;
   top: -14px;
   left: 1%;
-  background: white;
+  background: var(--primary-color);
   margin: 0;
 }
 
@@ -43,7 +70,7 @@ body {
   position: absolute;
   top: -14px;
   right: 1%;
-  background: white;
+  background: var(--primary-color);
   margin: 0;
 }
 
@@ -64,7 +91,7 @@ body {
 #exercice-modal-ended > div {
   min-width: 80%;
   min-height: 400px;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  box-shadow: var(--primary-box-shadow);
   border-radius: 10px;
   position: absolute;
   top: 50%;
@@ -78,6 +105,43 @@ body {
   font-size: 4rem;
   padding: 20px;
   text-align: center;
+}
+
+#exercice-start {
+  position: relative;
+  box-shadow: rgba(0, 153, 248, 0.35) 0px 5px 15px;
+  background-color: var(--secondary-color);
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-top: 10px;
+  position: relative;
+  text-align: center;
+}
+#exercice-start-close {
+  position: absolute;
+  right: 10px;
+  top: 0;
+  cursor: pointer;
+}
+#exercice-start div {
+  display: flex;
+  justify-content: space-around;
+}
+#exercice-start p {
+  margin: 0;
+}
+#exercice-start a {
+  width: 100%;
+  min-width: 500px;
+  margin-right: 5px;
+}
+#exercice-start img {
+  width: 100%;
+  min-width: 500px;
+  border-radius: 10px;
 }
 
 #exercice-block {

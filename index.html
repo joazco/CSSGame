@@ -3,10 +3,15 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <link href="./index.css" rel="stylesheet" />
+    <link href="/public/game/index.css" rel="stylesheet" />
     <title>CSSGame</title>
   </head>
   <body>
+    <div id="exercice-github">
+      <a href="https://github.com/joazco/CSSGame"
+        ><img src="/public/game/github.png" alt="Github Icon"
+      /></a>
+    </div>
     <div id="exercice-title">
       <h1>CSS Game</h1>
     </div>
@@ -16,16 +21,35 @@
       <p id="exercice-todo-text"></p>
       <div id="exercice-todo-link"></div>
     </div>
+    <div id="exercice-start">
+      <div id="exercice-start-close">&#9747;</div>
+      <p>
+        Pour commencer le jeu faite un clique sur le bloque en dessous et
+        cliquer sur
+        <i>"Inspecter"</i>.<br />
+        Entre les accolades "élément" ajouter les propriétées css demandé dans
+        l'énoncé.
+      </p>
+      <div>
+        <a href="/public/game/tuto1.png" target="_blank"
+          ><img src="/public/game/tuto1.png"
+        /></a>
+        <a href="/public/game/tuto2.png" target="_blank"
+          ><img src="/public/game/tuto2.png"
+        /></a>
+      </div>
+      <p>En suite vous pouvez fermer ce bloque.</p>
+    </div>
     <div id="exercice-block">
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus
       aspernatur sapiente quas earum tempora hic ratione laborum, nesciunt nulla
       ad.
     </div>
 
-    <script src="./configuration.js"></script>
-    <script src="./utils.js"></script>
-    <script src="./levels.js"></script>
-    <script src="./index.js"></script>
-    <script src="./solution.js"></script>
+    <script src="/configuration.js"></script>
+    <script src="/levels.js"></script>
+    <script src="/public/game/utils.js"></script>
+    <script src="/public/game/index.js"></script>
+    <script src="/public/game/solution.js"></script>
   </body>
 </html>

@@ -1,4 +1,4 @@
-configuration = {
+const configuration = {
   disableSolution: false,
   autoStartSolution: false,
   autoSolutionTo: null,

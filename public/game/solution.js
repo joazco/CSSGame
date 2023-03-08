@@ -1,9 +1,8 @@
-const exerciceBlock = document.getElementById("exercice-block");
-
 const nextSolution = () => {
   if (configuration.disableSolution) return;
   const levelObejct = levels[level];
-  exerciceBlock.style[levelObejct.property] = levelObejct.value;
+  const target = game.getTarget(levelObejct.target);
+  target.style[levelObejct.property] = levelObejct.value;
 };
 
 const solutionTo = (l) => {
@@ -24,8 +23,12 @@ const startSolution = () => {
   }, configuration.timeToUpdate);
 };
 
-if (!configuration.disableSolution && configuration.autoStartSolution) {
-  startSolution();
-} else if (!configuration.disableSolution && configuration.autoSolutionTo) {
-  solutionTo(configuration.autoSolutionTo);
-}
+document.addEventListener("DOMContentLoaded", () => {
+  game.initElements();
+
+  if (!configuration.disableSolution && configuration.autoStartSolution) {
+    startSolution();
+  } else if (!configuration.disableSolution && configuration.autoSolutionTo) {
+    solutionTo(configuration.autoSolutionTo);
+  }
+});

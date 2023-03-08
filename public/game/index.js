@@ -35,8 +35,8 @@ class Game {
   setTextTodo = ({ text, value, target }) => {
     this.exerciceTodo.textContent = text
       .replace("{{value}}", value)
-      .replace("{{block}}", "au bloque ci-dessous")
-      .replace("{{target}}", target || "au bloque ci-dessous");
+      .replace("{{block}}", "au bloc ci-dessous")
+      .replace("{{target}}", target || "au bloc ci-dessous");
   };
 
   setLink = (link) => {
@@ -84,6 +84,10 @@ class Game {
         this.updateLevel(level);
         isFinish = true;
       }
+    }
+
+    if (level > 0) {
+      this.removeTutoral();
     }
 
     if (level === levelsLength - 1) {

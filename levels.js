@@ -81,13 +81,13 @@ const levels = [
     link: "https://developer.mozilla.org/fr/docs/Web/CSS/overflow",
   },
   {
-    text: "Fixer le bloque",
+    text: "Fixer le bloc",
     property: "position",
     value: "fixed",
     link: "https://developer.mozilla.org/fr/docs/Web/CSS/position",
   },
   {
-    text: "Mettre le bloque en bottom {{value}}",
+    text: "Mettre le bloc en bottom {{value}}",
     property: "bottom",
     value: "0",
     link: "https://developer.mozilla.org/fr/docs/Web/CSS/position",

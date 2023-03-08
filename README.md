@@ -4,7 +4,7 @@
 
 [https://cssgame-54745.firebaseapp.com/](https://cssgame-54745.firebaseapp.com/)
 
-CSSGame est un mini-jeux customisable afin d'initier les utilisateurs aux propriétées
+CSSGame est un mini-jeux customisable afin d'initier les utilisateurs aux propriétés
 css et à l'inspecteur d'éléments des navigateur.
 
 ## Génarateur de niveaux
